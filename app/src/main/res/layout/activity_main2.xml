@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asheransari.colawars.Main2Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/favourite"
+        android:text="@string/please_vote_your_favourite_drink" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200sp"
+            android:id="@+id/coca"
+            android:src="@drawable/coca"
+            android:layout_weight="1"
+            android:contentDescription="@string/coca_cola" />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="180sp"
+            android:id="@+id/pepsi"
+            android:src="@drawable/pepsi"
+            android:layout_weight="1"
+            android:contentDescription="@string/pepsi" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coke"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:background="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:id="@+id/btnCoca"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/BTNpepsi"
+            android:textColor="#ffffff"
+            android:textSize="26sp"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:id="@+id/btnPepsi"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtcoke"
+            android:text="@string/_0"
+            android:textSize="26sp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/txtpepsi"
+            android:layout_marginLeft="5dp"
+            android:text="@string/_01"
+            android:textSize="26sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="#ffffff"
+        android:id="@+id/btnResult"
+        android:text="@string/show_result" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/result"/>
+
+
+
+</LinearLayout>

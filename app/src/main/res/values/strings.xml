@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Drink Survey Application</string>
+    <string name="please_vote_your_favourite_drink">Please Vote Your Favourite Drink</string>
+    <string name="coca_cola">Coca Cola</string>
+    <string name="pepsi">Pepsi</string>
+    <string name="coke">Coke</string>
+    <string name="BTNpepsi">Pepsi</string>
+    <string name="_0">0</string>
+    <string name="_01">0</string>
+    <string name="show_result">Show Result</string>
+</resources>
